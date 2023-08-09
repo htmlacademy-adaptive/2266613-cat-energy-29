@@ -48,16 +48,16 @@ textarea {
 
 @font-face {
   font-family: "lato";
-  src: url("./../../fonts/lato/Lato-Regular.woff2") format("woff2");
-  src: url("./../../fonts/lato/Lato-Regular.woff") format("woff");
+  src: url("./../fonts/lato/Lato-Regular.woff2") format("woff2");
+  src: url("./../fonts/lato/Lato-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "oswald";
-  src: url("./../../fonts/oswald/oswaldregular.woff2") format("woff2");
-  src: url("./../../fonts/oswald/oswaldregular.woff2") format("woff");
+  src: url("./../fonts/oswald/oswaldregular.woff2") format("woff2");
+  src: url("./../fonts/oswald/oswaldregular.woff2") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -91,6 +91,8 @@ textarea {
 }
 
 .academy-link__icon {
+  width: 100%;
+  height: 100%;
   fill: #666666;
 }
 
@@ -110,7 +112,7 @@ textarea {
   font-size: 24px;
   line-height: 1;
   color: #000000;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid #cdcdcd;
 }
 
 .additional__title::after {
@@ -126,7 +128,7 @@ textarea {
 .additional__card {
   padding-top: 12px;
   padding-bottom: 19px;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid #cdcdcd;
 }
 
 .additional__card-title {
@@ -198,7 +200,7 @@ textarea {
   text-align: center;
   font-family: oswald, arial, sans-serif;
   font-size: 14px;
-  line-height: 1.8;
+  line-height: 1.28;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #68b738;
@@ -208,7 +210,6 @@ textarea {
 .button--order {
   font-size: 16px;
   line-height: 1.25;
-  color: #ffffff;
 }
 
 .button--more {
@@ -356,7 +357,7 @@ textarea {
   font-weight: 400;
   line-height: 1.12;
   color: #444444;
-  border: 1px solid #e7e7e7;
+  border: 1px solid #cdcdcd;
 }
 .form__contacts .form__input--email {
   background-image: url("./../img/sprite.svg#form-email-icon");
@@ -493,6 +494,8 @@ textarea {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
+  line-height: 1.14;
+  color: #000000;
 }
 
 .hamburger {
@@ -532,7 +535,7 @@ textarea {
   padding-right: 20px;
   padding-bottom: 25px;
   padding-left: 21px;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid #ebebeb;
 }
 
 .more__plus {
@@ -604,7 +607,7 @@ textarea {
   padding-right: 20px;
   padding-bottom: 25px;
   padding-left: 20px;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid #ebebeb;
 }
 
 .product-card__wrapper {
@@ -852,6 +855,7 @@ textarea {
 }
 .process__item p::before {
   content: "";
+  flex-shrink: 0;
   width: 60px;
   height: 60px;
   background-color: #68b738;
@@ -904,6 +908,7 @@ textarea {
   font-family: oswald, arial, sans-serif;
   font-size: 24px;
   line-height: 1;
+  color: #000000;
 }
 
 .example__weight dd {
@@ -925,6 +930,7 @@ textarea {
   font-family: oswald, arial, sans-serif;
   font-size: 24px;
   line-height: 1;
+  color: #000000;
 }
 
 .example__time {
