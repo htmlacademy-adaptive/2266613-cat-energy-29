@@ -940,6 +940,7 @@ body.open .hamburger__line:nth-child(3) {
   padding-left: 0;
   list-style: none;
   position: absolute;
+  z-index: 1;
   top: 0;
   right: 200%;
   width: 100%;
@@ -1013,10 +1014,12 @@ body.open .navigation__list {
     line-height: 1.33;
   }
 }
-.navigation__link--active {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #68b738;
+@media (min-width: 768px) {
+  .navigation__link--active {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #68b738;
+  }
 }
 
 .product-card {
