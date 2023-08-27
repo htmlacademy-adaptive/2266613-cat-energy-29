@@ -1408,6 +1408,10 @@ body.open .hamburger__line:nth-child(3) {
   color: #444444;
 }
 
+.more__button-link--nojs {
+  background-color: #ffdd55;
+}
+
 .navigation {
   display: flex;
   align-items: center;
